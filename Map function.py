@@ -1,3 +1,4 @@
+#Length of string as a list element
 def myfunct(mystr):
     return len(mystr)
 list1 = ['Sunday', 'Tuesday', 'Thursday', 'Saturday']
@@ -10,7 +11,7 @@ print(opl[0])
 
 
 
-
+#String concatination 
 def myfunct2(var1,var2):
     return var1 + var2
 lsit1 = ["Vikash", "Sudhanshu", "Adnan"]
@@ -20,13 +21,13 @@ print(list(o))
 
 
 
-
+#String -> List
 def myfunct3(val):
     val.split()
 i = input("Enter values : ")
 temp = myfunct3(i)
 o = map(split,temp)
 print(list(o))
-
-output = list(map(int,input("Enter : ").split()))
+#Single insersion code
+output = list(map(int,input("Enter Values : ").split()))
 print(output)
