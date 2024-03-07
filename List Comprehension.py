@@ -1,3 +1,4 @@
+#Series of n^2
 list5 = []
 for x in range(10):
     list5.append(x**2)
@@ -7,7 +8,7 @@ list5 = [x**2 for x in range(10)]
 print(list5)
 
 
-
+#Series of 2n
 list6 = []
 for x in range(10):
     list6.append(2*x)
@@ -18,7 +19,7 @@ print(list6)
 
 
 
-
+#Filter even numbers
 list1 = [11, 22, 33, 44, 55, 66]
 list2 = []
 for x in list1:
