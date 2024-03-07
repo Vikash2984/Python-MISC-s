@@ -1,3 +1,4 @@
+#Implementing max( ) function
 from functools import reduce
 def big(first, second):
     flag = second > first
